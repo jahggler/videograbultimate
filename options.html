@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery.js"></script>
+<script src="base64.js"></script>
+<script src="gibberish-aes.min.js"></script>
+<script src="options.js"></script>
+<link rel='stylesheet' href='options.css' />
+<title>Youtube VideoGrab</title>
+</head>
+<body>
+<div id="search">
+	<form id="search-form"><input type="text" id="search-input" value="" /> <input type="submit" value="Search" /></form>
+	<div id="donate">
+		<span class="donate-text">Use at your own risk. Made by</span> <a href="https://github.com/jahggler/" target="_blank" class="clear feedback">Alex Kuzmenok</a>
+	</div>
+	<div class="clear"></div>
+</div>
+<div id="search-results"></div>
+<iframe id="sandbox" src="sandbox.html"></iframe>
+<iframe id="player" src="blank.html"></iframe>
+
+</body>
+</html>
